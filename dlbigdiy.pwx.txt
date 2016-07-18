@@ -1,0 +1,60 @@
+﻿first upload
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	new file:   Generate_Node_and_Edge.m
+#	new file:   Run_Sumo_Simulator.m
+#	new file:   basicnode.edg.xml
+#	new file:   basicnode.net.xml
+#	new file:   basicnode.nod.xml
+#	new file:   basicnode.rou.xml
+#	new file:   runSimulation.settings.xml
+#	new file:   runSimulation.sumocfg
+#
+# Untracked files:
+#	FOXDLL-1.6.dll
+#	Generate_Node_and_Edge.asv
+#	Makefile.am
+#	Makefile.in
+#	SUMOTrafficModeler.jar
+#	TraaS.jar
+#	TraciTestClient.exe
+#	activitygen.exe
+#	dfrouter.exe
+#	duarouter.exe
+#	emissionsDrivingCycle.exe
+#	emissionsMap.exe
+#	expat.dll
+#	fulloutput.xml
+#	gdal111.dll
+#	geos.dll
+#	geos_c.dll
+#	iconv.dll
+#	jtrrouter.exe
+#	libcurl.dll
+#	libeay32.dll
+#	libmysql.dll
+#	libpng16.dll
+#	libpq.dll
+#	marouter.exe
+#	msvcp120.dll
+#	msvcr120.dll
+#	netconvert.exe
+#	netedit.exe
+#	netgenerate.exe
+#	od2trips.exe
+#	openjp2.dll
+#	output_dump.xml
+#	polyconvert.exe
+#	proj.dll
+#	spatialite.dll
+#	ssleay32.dll
+#	start-command-line.bat
+#	sumo-gui.exe
+#	sumo.exe
+#	xerces-c_2_8.dll
+#	xerces-c_3_1.dll
+#	zlib1.dll
+#
+

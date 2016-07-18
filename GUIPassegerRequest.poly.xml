@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<poi id="test2ingid" type="testing" color="255,0,0" layer="10.0" x="0.0" y="0.0"/></additional>
