@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 7/19/2016 12:22:04 AM by SUMO gui Version 0.27.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumo-gui.exeConfiguration.xsd">
+
+    <input>
+        <net-file value="basicnode.net.xml"/>
+        <route-files value="basicnode.rou.xml"/>
+        <additional-files value="AdditionalFile.add.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="output_dump.xml"/>
+        <full-output value="fulloutput.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="50"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="runSimulation.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<vehicle-type-probes>
+    <timestep time="0.00" id="probe1" vType="Car"/>
+    <timestep time="1.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="1to2_0" pos="2.10" x="8.25" y="11.95" speed="0.00"/>
+    </timestep>
+    <timestep time="2.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="1to2_0" pos="3.10" x="8.25" y="12.95" speed="1.00"/>
+    </timestep>
+    <timestep time="3.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="1to2_0" pos="5.10" x="8.25" y="14.95" speed="2.00"/>
+    </timestep>
+    <timestep time="4.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="1to2_0" pos="8.10" x="8.25" y="17.95" speed="3.00"/>
+        <vehicle id="veh1" lane="1to2_0" pos="2.10" x="8.25" y="11.95" speed="0.00"/>
+    </timestep>
+    <timestep time="5.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="1to2_0" pos="12.10" x="8.25" y="21.95" speed="4.00"/>
+        <vehicle id="veh1" lane="1to2_0" pos="3.10" x="8.25" y="12.95" speed="1.00"/>
+    </timestep>
+    <timestep time="6.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="1to2_0" pos="17.10" x="8.25" y="26.95" speed="5.00"/>
+        <vehicle id="veh1" lane="1to2_0" pos="5.10" x="8.25" y="14.95" speed="2.00"/>
+    </timestep>
+    <timestep time="7.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="1to2_0" pos="23.10" x="8.25" y="32.95" speed="6.00"/>
+        <vehicle id="veh1" lane="1to2_0" pos="8.10" x="8.25" y="17.95" speed="3.00"/>
+        <vehicle id="veh2" lane="1to2_0" pos="2.10" x="8.25" y="11.95" speed="0.00"/>
+    </timestep>
+    <timestep time="8.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane=":2_10_0" pos="1.30" x="8.43" y="39.94" speed="7.00"/>
+        <vehicle id="veh1" lane="1to2_0" pos="12.10" x="8.25" y="21.95" speed="4.00"/>
+        <vehicle id="veh2" lane="1to2_0" pos="3.10" x="8.25" y="12.95" speed="1.00"/>
+    </timestep>
+    <timestep time="9.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="2to13_1" pos="4.30" x="15.65" y="45.05" speed="8.00"/>
+        <vehicle id="veh1" lane="1to2_0" pos="17.10" x="8.25" y="26.95" speed="5.00"/>
+        <vehicle id="veh2" lane="1to2_0" pos="5.10" x="8.25" y="14.95" speed="2.00"/>
+    </timestep>
+    <timestep time="10.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="2to13_2" pos="13.30" x="24.65" y="48.35" speed="9.00"/>
+        <vehicle id="veh1" lane="1to2_0" pos="23.10" x="8.25" y="32.95" speed="6.00"/>
+        <vehicle id="veh2" lane="1to2_0" pos="8.10" x="8.25" y="17.95" speed="3.00"/>
+    </timestep>
+    <timestep time="11.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="2to13_2" pos="22.75" x="34.10" y="48.35" speed="9.45"/>
+        <vehicle id="veh1" lane=":2_10_0" pos="1.30" x="8.43" y="39.94" speed="7.00"/>
+        <vehicle id="veh2" lane="1to2_0" pos="12.10" x="8.25" y="21.95" speed="4.00"/>
+    </timestep>
+    <timestep time="12.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane=":13_22_0" pos="5.90" x="44.47" y="49.24" speed="10.45"/>
+        <vehicle id="veh1" lane="2to13_1" pos="4.30" x="15.65" y="45.05" speed="8.00"/>
+        <vehicle id="veh2" lane="1to2_0" pos="17.10" x="8.25" y="26.95" speed="5.00"/>
+    </timestep>
+    <timestep time="13.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane=":13_22_0" pos="17.35" x="51.14" y="57.76" speed="11.45"/>
+        <vehicle id="veh1" lane="2to13_2" pos="13.30" x="24.65" y="48.35" speed="9.00"/>
+        <vehicle id="veh2" lane="1to2_0" pos="23.10" x="8.25" y="32.95" speed="6.00"/>
+    </timestep>
+    <timestep time="14.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="13to14_2" pos="8.83" x="51.65" y="70.18" speed="12.45"/>
+        <vehicle id="veh1" lane="2to13_2" pos="22.75" x="34.10" y="48.35" speed="9.45"/>
+        <vehicle id="veh2" lane=":2_10_0" pos="1.30" x="8.43" y="39.94" speed="7.00"/>
+    </timestep>
+    <timestep time="15.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="13to14_2" pos="22.28" x="51.65" y="83.63" speed="13.45"/>
+        <vehicle id="veh1" lane=":13_22_0" pos="5.90" x="44.47" y="49.24" speed="10.45"/>
+        <vehicle id="veh2" lane="2to13_1" pos="4.30" x="15.65" y="45.05" speed="8.00"/>
+    </timestep>
+    <timestep time="16.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane=":14_13_2" pos="8.88" x="51.65" y="97.53" speed="13.90"/>
+        <vehicle id="veh1" lane=":13_22_0" pos="17.35" x="51.14" y="57.76" speed="11.45"/>
+        <vehicle id="veh2" lane="2to13_2" pos="13.30" x="24.65" y="48.35" speed="9.00"/>
+    </timestep>
+    <timestep time="17.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="14to15_2" pos="0.08" x="51.65" y="111.43" speed="13.90"/>
+        <vehicle id="veh1" lane="13to14_2" pos="8.83" x="51.65" y="70.18" speed="12.45"/>
+        <vehicle id="veh2" lane="2to13_2" pos="22.75" x="34.10" y="48.35" speed="9.45"/>
+    </timestep>
+    <timestep time="18.00" id="probe1" vType="Car">
+        <vehicle id="veh0" lane="14to15_2" pos="13.98" x="51.65" y="125.33" speed="13.90"/>
+        <vehicle id="veh1" lane="13to14_2" pos="22.28" x="51.65" y="83.63" speed="13.45"/>
+        <vehicle id="veh2" lane=":13_22_0" pos="5.90" x="44.47" y="49.24" speed="10.45"/>
+    </timestep>
+    <timestep time="19.00" id="probe1" vType="Car">
+        <vehicle id="veh1" lane=":14_13_2" pos="8.88" x="51.65" y="97.53" speed="13.90"/>
+        <vehicle id="veh2" lane=":13_22_0" pos="17.35" x="51.14" y="57.76" speed="11.45"/>
+    </timestep>
+    <timestep time="20.00" id="probe1" vType="Car">
+        <vehicle id="veh1" lane="14to15_2" pos="0.08" x="51.65" y="111.43" speed="13.90"/>
+        <vehicle id="veh2" lane="13to14_2" pos="8.83" x="51.65" y="70.18" speed="12.45"/>
+    </timestep>
+    <timestep time="21.00" id="probe1" vType="Car">
+        <vehicle id="veh1" lane="14to15_2" pos="13.98" x="51.65" y="125.33" speed="13.90"/>
+        <vehicle id="veh2" lane="13to14_2" pos="22.28" x="51.65" y="83.63" speed="13.45"/>
+    </timestep>
+    <timestep time="22.00" id="probe1" vType="Car">
+        <vehicle id="veh2" lane=":14_13_2" pos="8.88" x="51.65" y="97.53" speed="13.90"/>
+    </timestep>
+    <timestep time="23.00" id="probe1" vType="Car">
+        <vehicle id="veh2" lane="14to15_2" pos="0.08" x="51.65" y="111.43" speed="13.90"/>
+    </timestep>
+    <timestep time="24.00" id="probe1" vType="Car">
+        <vehicle id="veh2" lane="14to15_2" pos="13.98" x="51.65" y="125.33" speed="13.90"/>
+    </timestep>
+    <timestep time="25.00" id="probe1" vType="Car"/>
+    <timestep time="26.00" id="probe1" vType="Car"/>
+    <timestep time="27.00" id="probe1" vType="Car"/>
+    <timestep time="28.00" id="probe1" vType="Car"/>
+    <timestep time="29.00" id="probe1" vType="Car"/>
+    <timestep time="30.00" id="probe1" vType="Car"/>
+    <timestep time="31.00" id="probe1" vType="Car"/>
+    <timestep time="32.00" id="probe1" vType="Car"/>
+    <timestep time="33.00" id="probe1" vType="Car"/>
+    <timestep time="34.00" id="probe1" vType="Car"/>
+    <timestep time="35.00" id="probe1" vType="Car"/>
+    <timestep time="36.00" id="probe1" vType="Car"/>
+    <timestep time="37.00" id="probe1" vType="Car"/>
+    <timestep time="38.00" id="probe1" vType="Car"/>
+    <timestep time="39.00" id="probe1" vType="Car"/>
+    <timestep time="40.00" id="probe1" vType="Car"/>
+</vehicle-type-probes>

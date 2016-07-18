@@ -3,7 +3,7 @@
         <net-file value="basicnode.net.xml"/>
         <route-files value="basicnode.rou.xml"/>
 		<gui-settings-file value="runSimulation.settings.xml"/>
-		<additional-files value="GUIPassegerRequest.poly.xml"/>
+		<additional-files value="AdditionalFile.add.xml"/>
     </input>
     <output>
         <netstate-dump value="output_dump.xml"/>

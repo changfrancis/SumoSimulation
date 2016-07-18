@@ -2,7 +2,7 @@
 clear;
 clc;
 fileID = fopen('basicnode.nod.xml','w');
-fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>');
+fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>\n');
 fprintf(fileID,'<nodes>\n');
 grid_size = 10; %size
 num_of_lanes = 3;
@@ -21,7 +21,7 @@ fclose(fileID);
 
 %%Write Edge
 fileID = fopen('basicnode.edg.xml','w');
-fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>');
+fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>\n');
 fprintf(fileID,'<edges>\n');
 offset = 0;
 for j=1:grid_size+1

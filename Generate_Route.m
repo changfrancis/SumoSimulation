@@ -1,7 +1,7 @@
 clear;
 clc;
 fileID = fopen('basicnode.rou.xml','w');
-fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>');
+fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>\n');
 fprintf(fileID,'<routes>\n');
 grid_size = 10; %size
 num_of_lanes = 3;
@@ -13,9 +13,11 @@ fprintf(fileID,'</routes>');
 fclose(fileID);
 display('Matlab Done')
 % <routes>
-%     <vType accel="1.0" decel="5.0" id="Car" length="2.0" maxSpeed="100.0" sigma="0.0" />
+%     <vType accel="1.0" decel="5.0" id="Car" length="2.0" maxSpeed="100.0" sigma="0.0" guiShape="bicycle"/>
 %     <route id="route0" edges="1to2 2to13 13to14 14to15"/>
-%     <vehicle depart="1" id="veh0" route="route0" type="Car" />
+%     <vehicle depart="1" id="veh0" route="route0" type="Car" color="1,0,0" personNumber="2" personCapacity="1"/>
+%     <vehicle depart="1" id="veh1" route="route0" type="Car" color="0,1,0" />
+%     <vehicle depart="1" id="veh2" route="route0" type="Car" color="0,0,1" />
 % </routes>
 
 % <routes>
