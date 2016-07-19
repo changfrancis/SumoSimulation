@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- generated on 2016-07-19 14:42:51.330000 by $Id: randomTrips.py 20482 2016-04-18 20:49:42Z behrisch $
+  options: -n basicnode.net.xml -e 50
+-->
+<trips>
+    <vType id="passenger" vClass="passenger"/>
+    <trip id="0" depart="0.00" from="30to29" to="50to51" type="passenger"/>
+    <trip id="1" depart="1.00" from="62to51" to="35to36" />
+    <trip id="2" depart="2.00" from="41to42" to="69to70" />
+    <trip id="3" depart="3.00" from="105to116" to="101to112" />
+    <trip id="4" depart="4.00" from="76to65" to="13to14" />
+    <trip id="5" depart="5.00" from="26to25" to="4to5" />
+    <trip id="6" depart="6.00" from="1to2" to="4to3" />
+    <trip id="7" depart="7.00" from="34to35" to="32to21" />
+    <trip id="8" depart="8.00" from="117to118" to="119to120" />
+    <trip id="9" depart="9.00" from="22to21" to="62to51" />
+    <trip id="10" depart="10.00" from="26to15" to="103to92" />
+    <trip id="11" depart="11.00" from="101to100" to="116to115" />
+    <trip id="12" depart="12.00" from="59to70" to="85to84" />
+    <trip id="13" depart="13.00" from="38to37" to="67to78" />
+    <trip id="14" depart="14.00" from="72to61" to="120to121" />
+    <trip id="15" depart="15.00" from="95to96" to="6to5" />
+    <trip id="16" depart="16.00" from="115to116" to="31to32" />
+    <trip id="17" depart="17.00" from="93to92" to="70to59" />
+    <trip id="18" depart="18.00" from="61to60" to="83to94" />
+    <trip id="19" depart="19.00" from="92to103" to="40to39" />
+    <trip id="20" depart="20.00" from="89to100" to="61to50" />
+    <trip id="21" depart="21.00" from="83to84" to="14to15" />
+    <trip id="22" depart="22.00" from="1to2" to="51to50" />
+    <trip id="23" depart="23.00" from="9to20" to="106to117" />
+    <trip id="24" depart="24.00" from="109to108" to="84to83" />
+    <trip id="25" depart="25.00" from="114to103" to="66to77" />
+    <trip id="26" depart="26.00" from="98to109" to="29to30" />
+    <trip id="27" depart="27.00" from="22to11" to="42to31" />
+    <trip id="28" depart="28.00" from="45to34" to="53to64" />
+    <trip id="29" depart="29.00" from="26to25" to="50to61" />
+    <trip id="30" depart="30.00" from="103to92" to="71to70" />
+    <trip id="31" depart="31.00" from="111to112" to="42to31" />
+    <trip id="32" depart="32.00" from="79to90" to="6to5" />
+    <trip id="33" depart="33.00" from="101to100" to="86to85" />
+    <trip id="34" depart="34.00" from="86to87" to="13to12" />
+    <trip id="35" depart="35.00" from="7to8" to="31to42" />
+    <trip id="36" depart="36.00" from="102to113" to="3to2" />
+    <trip id="37" depart="37.00" from="27to16" to="20to19" />
+    <trip id="38" depart="38.00" from="101to100" to="25to36" />
+    <trip id="39" depart="39.00" from="64to75" to="5to16" />
+    <trip id="40" depart="40.00" from="2to13" to="92to93" />
+    <trip id="41" depart="41.00" from="102to101" to="91to90" />
+    <trip id="42" depart="42.00" from="46to47" to="19to8" />
+    <trip id="43" depart="43.00" from="82to81" to="96to95" />
+    <trip id="44" depart="44.00" from="79to68" to="74to85" />
+    <trip id="45" depart="45.00" from="28to27" to="117to116" />
+    <trip id="46" depart="46.00" from="29to18" to="42to31" />
+    <trip id="47" depart="47.00" from="3to14" to="19to30" />
+    <trip id="48" depart="48.00" from="60to71" to="41to40" />
+    <trip id="49" depart="49.00" from="94to93" to="26to37" />
+</trips>

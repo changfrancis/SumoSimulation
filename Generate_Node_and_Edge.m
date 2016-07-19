@@ -1,19 +1,20 @@
 %% Generate Node for simulation
 clear;
 clc;
-fileID = fopen('basicnode.nod.xml','w');
-fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>\n');
-fprintf(fileID,'<nodes>\n');
+
+%% Global Variable
 grid_size = 10; %size
 num_of_lanes = 3;
-nodeID = 1;
 spacing_gap = 50;
 
 %%Write Node
-for x=0:grid_size
-    for y=0:grid_size
-        fprintf(fileID,'\t<node id="%d" x="%0.1f" y="%0.1f" />\n',nodeID,(x*spacing_gap)+10,(y*spacing_gap)+10);
-        nodeID = nodeID + 1;
+fileID = fopen('basicnode.nod.xml','w');
+fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>\n');
+fprintf(fileID,'<nodes>\n');
+for x=1:grid_size+1
+    for y=1:grid_size+1
+        %XXXYYYtoXXXYYY Coordinate system
+        fprintf(fileID,'\t<node id="%03d%03d" x="%0.1f" y="%0.1f" />\n',x,y,(x*spacing_gap)+10,(y*spacing_gap)+10);
     end
 end
 fprintf(fileID,'</nodes>');
@@ -23,30 +24,25 @@ fclose(fileID);
 fileID = fopen('basicnode.edg.xml','w');
 fprintf(fileID,'<?xml version="1.0" encoding="UTF-8"?>\n');
 fprintf(fileID,'<edges>\n');
-offset = 0;
-for j=1:grid_size+1
-    for i=1:grid_size
-        node = offset+i;
-        fprintf(fileID,'\t<edge id="%dto%d" from="%d" to="%d" numLanes="%d" />\n',node,node+1,node,node+1,num_of_lanes);
-        fprintf(fileID,'\t<edge id="%dto%d" from="%d" to="%d" numLanes="%d" />\n',node+1,node,node+1,node,num_of_lanes);
+for x=1:grid_size+1 %x grid need + 1, upwards
+    for y=1:grid_size
+        %XXXYYYtoXXXYYY Coordinate system
+        fprintf(fileID,'\t<edge id="%03d%03dto%03d%03d" from="%03d%03d" to="%03d%03d" numLanes="%d" />\n',x,y,x,y+1,x,y,x,y+1,num_of_lanes);
+        fprintf(fileID,'\t<edge id="%03d%03dto%03d%03d" from="%03d%03d" to="%03d%03d" numLanes="%d" />\n',x,y+1,x,y,x,y+1,x,y,num_of_lanes);
     end
-    offset = offset + (grid_size+1);
 end
-offset = 0;
-for i=1:grid_size
-    for j=1:grid_size+1
-        index = grid_size + 1;
-        node = offset+j;
-        fprintf(fileID,'\t<edge id="%dto%d" from="%d" to="%d" numLanes="%d" />\n',node,node+index,node,node+index,num_of_lanes);
-        fprintf(fileID,'\t<edge id="%dto%d" from="%d" to="%d" numLanes="%d" />\n',node+index,node,node+index,node,num_of_lanes);
+for x=1:grid_size
+    for y=1:grid_size+1 %y grid need + 1
+        fprintf(fileID,'\t<edge id="%03d%03dto%03d%03d" from="%03d%03d" to="%03d%03d" numLanes="%d" />\n',x,y,x+1,y,x,y,x+1,y,num_of_lanes);
+        fprintf(fileID,'\t<edge id="%03d%03dto%03d%03d" from="%03d%03d" to="%03d%03d" numLanes="%d" />\n',x+1,y,x,y,x+1,y,x,y,num_of_lanes);
     end
-    offset = offset + (grid_size+1);
 end
 % fprintf(fileID,'\t<edge from="1" id="1to2" to="2" numLanes="3" />\n');
 fprintf(fileID,'</edges>');
 fclose(fileID);
 display('Matlab Done')
 
+%% Start running simulation
 display('Run Netconvert')
 system('netconvert --node-files=basicnode.nod.xml --edge-files=basicnode.edg.xml --output-file=basicnode.net.xml');
 display('Run Sumo')

@@ -1,0 +1,16 @@
+<configuration>
+    <input>
+        <net-file value="basicnode.net.xml"/>
+        <route-files value="basicnode.rou.xml"/>
+		<trip-files value="test.trips.xml"/>
+		<gui-settings-file value="runSimulation.settings.xml"/>
+		<additional-files value="AdditionalFile.add.xml"/>
+    </input>
+    <output>
+        <netstate-dump value="output_dump.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="50"/>
+    </time>
+</configuration>
