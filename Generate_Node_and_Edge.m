@@ -1,9 +1,8 @@
 %% Generate Node for simulation
-clear;
-clc;
+%clear;
+%clc;
 
-%% Global Variable
-grid_size = 10; %size
+%Setting
 num_of_lanes = 3;
 spacing_gap = 50;
 
@@ -40,6 +39,6 @@ end
 % fprintf(fileID,'\t<edge from="1" id="1to2" to="2" numLanes="3" />\n');
 fprintf(fileID,'</edges>');
 fclose(fileID);
-display('Matlab Done')
-clear; %all variables
+display('Generate Node and Edge - Done')
+clear fileID x y num_of_lanes spacing_gap; %clear variables
 
