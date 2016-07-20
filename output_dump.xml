@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 7/19/2016 6:25:22 PM by SUMO gui Version 0.27.0
+<!-- generated on 7/19/2016 6:36:00 PM by SUMO gui Version 0.27.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumo-gui.exeConfiguration.xsd">
@@ -374,19 +374,4 @@
     <timestep time="32.00"/>
     <timestep time="33.00"/>
     <timestep time="34.00"/>
-    <timestep time="35.00"/>
-    <timestep time="36.00"/>
-    <timestep time="37.00"/>
-    <timestep time="38.00"/>
-    <timestep time="39.00"/>
-    <timestep time="40.00"/>
-    <timestep time="41.00"/>
-    <timestep time="42.00"/>
-    <timestep time="43.00"/>
-    <timestep time="44.00"/>
-    <timestep time="45.00"/>
-    <timestep time="46.00"/>
-    <timestep time="47.00"/>
-    <timestep time="48.00"/>
-    <timestep time="49.00"/>
 </netstate>

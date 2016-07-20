@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 7/19/2016 6:25:22 PM by SUMO gui Version 0.27.0
+<!-- generated on 7/19/2016 6:36:00 PM by SUMO gui Version 0.27.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumo-gui.exeConfiguration.xsd">
@@ -134,19 +134,4 @@
     <timestep time="32.00" id="probe1" vType="Car"/>
     <timestep time="33.00" id="probe1" vType="Car"/>
     <timestep time="34.00" id="probe1" vType="Car"/>
-    <timestep time="35.00" id="probe1" vType="Car"/>
-    <timestep time="36.00" id="probe1" vType="Car"/>
-    <timestep time="37.00" id="probe1" vType="Car"/>
-    <timestep time="38.00" id="probe1" vType="Car"/>
-    <timestep time="39.00" id="probe1" vType="Car"/>
-    <timestep time="40.00" id="probe1" vType="Car"/>
-    <timestep time="41.00" id="probe1" vType="Car"/>
-    <timestep time="42.00" id="probe1" vType="Car"/>
-    <timestep time="43.00" id="probe1" vType="Car"/>
-    <timestep time="44.00" id="probe1" vType="Car"/>
-    <timestep time="45.00" id="probe1" vType="Car"/>
-    <timestep time="46.00" id="probe1" vType="Car"/>
-    <timestep time="47.00" id="probe1" vType="Car"/>
-    <timestep time="48.00" id="probe1" vType="Car"/>
-    <timestep time="49.00" id="probe1" vType="Car"/>
 </vehicle-type-probes>

@@ -41,10 +41,5 @@ end
 fprintf(fileID,'</edges>');
 fclose(fileID);
 display('Matlab Done')
+clear; %all variables
 
-%% Start running simulation
-display('Run Netconvert')
-system('netconvert --node-files=basicnode.nod.xml --edge-files=basicnode.edg.xml --output-file=basicnode.net.xml');
-display('Run Sumo')
-system('sumo-gui -c runSimulation.sumocfg --full-output fulloutput.xml'); 
-%system('sumo -c runSimulation.sumocfg --full-output fulloutput.xml'); 
